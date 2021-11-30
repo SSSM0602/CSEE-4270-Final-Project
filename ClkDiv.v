@@ -6,7 +6,7 @@ module ClkDiv(Clk, Rst, ClkOut);
    input Clk, Rst;
    output reg ClkOut;
   
-	parameter DivVal = 50000;
+	parameter DivVal = 25000 //50000; 
    reg[24:0] DivCnt;
    reg ClkInt;
 	
